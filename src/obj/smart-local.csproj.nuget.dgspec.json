@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\deoxy\\Documentos\\Universidad_Trabajos\\2022\\Segundo Semestre\\MemoriaTitulo\\Implementacion\\FHIR-CS-SMART-Local\\src\\smart-local.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\deoxy\\Documentos\\Universidad_Trabajos\\2022\\Segundo Semestre\\MemoriaTitulo\\Implementacion\\FHIR-CS-SMART-Local\\src\\smart-local.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\deoxy\\Documentos\\Universidad_Trabajos\\2022\\Segundo Semestre\\MemoriaTitulo\\Implementacion\\FHIR-CS-SMART-Local\\src\\smart-local.csproj",
+        "projectName": "smart-local",
+        "projectPath": "D:\\Users\\deoxy\\Documentos\\Universidad_Trabajos\\2022\\Segundo Semestre\\MemoriaTitulo\\Implementacion\\FHIR-CS-SMART-Local\\src\\smart-local.csproj",
+        "packagesPath": "C:\\Users\\deoxy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\deoxy\\Documentos\\Universidad_Trabajos\\2022\\Segundo Semestre\\MemoriaTitulo\\Implementacion\\FHIR-CS-SMART-Local\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deoxy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hl7.fhir.R4": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.CommandLine.DragonFruit": {
+              "target": "Package",
+              "version": "[0.4.0-alpha.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
