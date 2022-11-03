@@ -4,5 +4,17 @@
         <name>smart-local</name>
     </assembly>
     <members>
+        <member name="M:smart_local.Program.GetListenPort">
+            <summary>
+            Determine the listening port of the web server.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="P:smart_local.Startup.Addresseses">
+            <summary>
+            List of the webserver addresses in use.
+            </summary>
+        </member>
     </members>
 </doc>
