@@ -4,12 +4,38 @@
         <name>smart-local</name>
     </assembly>
     <members>
+        <member name="M:smart_local.Program.Main(System.String)">
+            <summary>
+            Programa para acceder a un servidor FHIR SMART con un servidor local para redireccionar. 
+            </summary>
+            <param name="fhirServerUrl"> FHIR R4 endpoint URL</param>
+            <returns></returns>
+        </member>
+        <member name="M:smart_local.Program.SetAuthcode(System.String,System.String)">
+            <summary>
+            Set the authorization code and state
+            </summary>
+            <param name="code"></param>
+            <param name="state"></param>
+        </member>
+        <member name="M:smart_local.Program.LaunchUrl(System.String)">
+            <summary>
+            Launch a Url in the user's default web browser.
+            </summary>
+            <param name="url"></param>
+            <returns>true if succesful, false otherwise</returns>
+        </member>
         <member name="M:smart_local.Program.GetListenPort">
             <summary>
             Determine the listening port of the web server.
             </summary>
             <returns></returns>
             <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:smart_local.SmartResponse">
+            <summary>
+            Class to deserialize SMART auth responses.
+            </summary>
         </member>
         <member name="P:smart_local.Startup.Addresseses">
             <summary>
